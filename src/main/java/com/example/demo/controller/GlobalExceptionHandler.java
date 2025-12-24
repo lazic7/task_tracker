@@ -11,6 +11,7 @@ import java.util.Map;
 @ControllerAdvice(
         basePackageClasses = {
                 UserController.class,
+                TaskController.class
         }
 )
 public class GlobalExceptionHandler {
